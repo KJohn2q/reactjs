@@ -1,11 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import User from './User';
-import Clock from './Clock';
-import Comment from './Comment';
-import Student from './Welcome';
+// import App from './App';
+// import User from './User';
+// import Clock from './Clock';
+// import Comment from './Comment';
+// import Student from './Welcome';
+// import ActionLink from './ActionLink';
+// import Toggle from './Toggle';
+// import LoggingButton from './LoggingButton';
+import LoginControl from './LoginControl';
 import * as serviceWorker from './serviceWorker';
 
 const comment = {
@@ -15,7 +19,7 @@ const comment = {
 
 const text = 'Have a good time !!!';
 
-ReactDOM.render(<Student />, document.getElementById('root'));
+ReactDOM.render(<LoginControl />, document.getElementById('root'));
 // ReactDOM.render(<Comment user={comment} text={text}/>, document.getElementById('root'));
 // ReactDOM.render(<Clock />, document.getElementById('root'));
 // ReactDOM.render(<App />, document.getElementById('root'));
