@@ -9,7 +9,8 @@ import './index.css';
 // import ActionLink from './ActionLink';
 // import Toggle from './Toggle';
 // import LoggingButton from './LoggingButton';
-import LoginControl from './LoginControl';
+// import LoginControl from './LoginControl';
+import TempCalc from './TempCalc';
 import * as serviceWorker from './serviceWorker';
 
 const comment = {
@@ -19,7 +20,7 @@ const comment = {
 
 const text = 'Have a good time !!!';
 
-ReactDOM.render(<LoginControl />, document.getElementById('root'));
+ReactDOM.render(<TempCalc />, document.getElementById('root'));
 // ReactDOM.render(<Comment user={comment} text={text}/>, document.getElementById('root'));
 // ReactDOM.render(<Clock />, document.getElementById('root'));
 // ReactDOM.render(<App />, document.getElementById('root'));
