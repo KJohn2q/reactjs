@@ -10,11 +10,8 @@ import './index.css';
 // import Toggle from './Toggle';
 // import LoggingButton from './LoggingButton';
 // import LoginControl from './LoginControl';
-<<<<<<< HEAD
-import Show from './Test';
-=======
-import TempCalc from './TempCalc';
->>>>>>> 3a801f7640a34dc875bda0377bb58579f6e78633
+// import Show from './Test';
+// import TempCalc from './TempCalc';
 import * as serviceWorker from './serviceWorker';
 
 const comment = {
