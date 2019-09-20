@@ -9,7 +9,8 @@ import './index.css';
 // import ActionLink from './ActionLink';
 // import Toggle from './Toggle';
 // import LoggingButton from './LoggingButton';
-import LoginControl from './LoginControl';
+// import LoginControl from './LoginControl';
+import Show from './Test';
 import * as serviceWorker from './serviceWorker';
 
 const comment = {
