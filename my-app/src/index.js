@@ -13,9 +13,11 @@ import './index.css';
 // import Show from './Test';
 // import TempCalc from './TempCalc';
 import Game from './game/Game';
+// import ComponentHeader from './demo/header';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Game />, document.getElementById('root'));
+ReactDOM.render(<Game />, 
+	document.getElementById('root'));
 // ReactDOM.render(<Comment user={comment} text={text}/>, document.getElementById('root'));
 // ReactDOM.render(<Clock />, document.getElementById('root'));
 // ReactDOM.render(<App />, document.getElementById('root'));

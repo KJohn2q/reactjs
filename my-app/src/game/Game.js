@@ -1,5 +1,5 @@
 import React from 'react';
-import './Game.css';
+import gameCss from './Game.css';
 
 function calculateWinner(squares) {
   const lines = [
@@ -34,7 +34,7 @@ class Board extends React.Component {
 
   renderSquare(i) {
     return (
-      <Square value={this.props.squares[i]} 
+      <Square value={this.props.squares[i]}
       onClick={()=>this.props.onClick(i)} />
     );
   }
@@ -63,7 +63,7 @@ class Board extends React.Component {
 }
 
 class Game extends React.Component {
-  
+
   constructor(props) {
     super(props);
     this.state = {
@@ -87,7 +87,7 @@ class Game extends React.Component {
     this.setState({
       history: history.concat([{
         squares: squares,
-      }]), 
+      }]),
       stepNumber: history.length,
       xIsNext : !this.state.xIsNext,
     });
@@ -113,7 +113,7 @@ class Game extends React.Component {
         </li>
       );
     })
-    
+
     let status;
     if (winner) {
       status = "Winner: "+winner;
