@@ -1,5 +1,6 @@
 import React from 'react';
 import ComponentHeaderLeft from './headerLeft.js';
+import { DatePicker } from 'antd';
 
 class ComponentHeader extends React.Component {
 
@@ -20,6 +21,7 @@ class ComponentHeader extends React.Component {
 				<h1>this is a header.{this.state.info}</h1>
 				<p>{this.props.value}</p>
 				<ComponentHeaderLeft {...this.props} handleChange={this.handleChange} />
+				<DatePicker />
 			</div>
 		);
 	}

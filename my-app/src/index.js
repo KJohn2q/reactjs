@@ -12,11 +12,13 @@ import './index.css';
 // import LoginControl from './LoginControl';
 // import Show from './Test';
 // import TempCalc from './TempCalc';
-import Game from './game/Game';
+// import Game from './game/Game';
 // import ComponentHeader from './demo/header';
+// import AppRouter from './router-demo/app-router';
+import DemoRouter from './router-demo/demo-router';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Game />, 
+ReactDOM.render(<DemoRouter />,
 	document.getElementById('root'));
 // ReactDOM.render(<Comment user={comment} text={text}/>, document.getElementById('root'));
 // ReactDOM.render(<Clock />, document.getElementById('root'));
