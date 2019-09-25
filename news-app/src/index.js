@@ -6,6 +6,7 @@ import 'antd/dist/antd.css';
 import PCIndex from './js/component/pc_index';
 import MobileIndex from './js/component/mobile_index';
 import MediaQuery from 'react-responsive';
+import App from './js/component/show_modal';
 
 const root = document.getElementById('root');
 
