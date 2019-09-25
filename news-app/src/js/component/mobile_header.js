@@ -17,15 +17,15 @@ class MobileHeader extends React.Component {
   }
 
   setModalVisible(value) {
-    this.setState({modalVisible: Boolean(value)});
+    this.setState({modalVisible: value});
   }
 
   login() {
-
+    this.setState({modalVisible: true});
   }
 
   render() {
-    const userShow = !this.state.hasLogined?
+    const userShow = this.state.hasLogined?
     <Router>
       <Link target="_blank" to="">
         <Icon type="inbox"/>

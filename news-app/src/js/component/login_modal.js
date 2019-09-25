@@ -36,7 +36,7 @@ class LoginModal extends React.Component {
           onOk={()=>this.props.setModalVisible(false)}
           okText='关闭' cancelText='取消' >
           <Tabs type="card">
-            <TabPane tab="注册" key="2">
+            <TabPane tab="注册" key="1">
               <Form horizontal onSubmit={this.handleSubmit.bind(this)}>
                 <FormItem label="账户">
                   <Input placeholder="请输入您的账号"
@@ -51,6 +51,19 @@ class LoginModal extends React.Component {
                     {...getFieldProps('r_confirmPassword')} />
                 </FormItem>
                 <Button type="primary" htmlType="submit">注册</Button>
+              </Form>
+            </TabPane>
+            <TabPane tab="登录" key="2">
+              <Form horizontal onSubmit={this.handleSubmit.bind(this)}>
+                <FormItem label="账户">
+                  <Input placeholder="请输入您的账号"
+                    {...getFieldProps('r_userName')} />
+                </FormItem>
+                <FormItem label="密码">
+                  <Input type="password" placeholder="请输入您的密码"
+                    {...getFieldProps('r_password')} />
+                </FormItem>
+                <Button type="primary" htmlType="submit">登录</Button>
               </Form>
             </TabPane>
           </Tabs>
