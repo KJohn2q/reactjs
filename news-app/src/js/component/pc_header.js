@@ -18,7 +18,7 @@ class PCHeader extends React.Component {
   }
 
   setModalVisible(value) {
-    this.setState({modalVisible: Boolean(value)});
+    this.setState({modalVisible: value});
   }
 
   handleClick(e) {

@@ -31,13 +31,13 @@ class LoginModal extends React.Component {
     return(
       <div>
         <Modal title="用户中心" wrapClassName="vertical-center-modal"
-          visible={this.props.modalVisible}
+          visible={Boolean(this.props.modalVisible)}
           onCancel= {()=>this.props.setModalVisible(false)}
           onOk={()=>this.props.setModalVisible(false)}
           okText='关闭' cancelText='取消' >
           <Tabs type="card">
             <TabPane tab="注册" key="1">
-              <Form horizontal onSubmit={this.handleSubmit.bind(this)}>
+              <Form layout="horizontal" onSubmit={this.handleSubmit.bind(this)}>
                 <FormItem label="账户">
                   <Input placeholder="请输入您的账号"
                     {...getFieldProps('r_userName')} />
