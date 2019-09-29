@@ -1,20 +1,43 @@
 import React from 'react';
-import {Tabs} from 'antd';
-import {Link, Route, BrowserRouter as Router} from 'react-router-dom';
-
-const {TabPane} = {Tabs};
+import { Card } from 'antd';
+import {Link} from 'react-router-dom';
 
 class PCNewsBlock extends React.Component {
 
-  constructor() {
-    super.props();
+  constructor(props) {
+    super(props);
     this.state = {
-      news_list = '',
+      news: '',
     }
   }
 
+  componentWillMount() {
+    var myFetchOptions = {
+      method: 'GET'
+    };
+    fetch("http://www.news.com",myFetchOptions).then(response =>
+      response.json()).then(json => this.setState({news: json}));
+  }
+
   render() {
+    const {news} = this.state;
+    const newsList = news.length
+      ? news.map((newsItem, index) => (
+        <li key={index}>
+          <Link to={`details/${newsItem.uniquekey}`} target="_blank">
+            {newsItem.title}
+          </Link>
+        </li>
+      ))
+      : '没有加载到任何新闻';
     return(
+      <div class="topNewsList">
+        <Card>
+          <ul>
+            {newsList}
+          </ul>
+        </Card>
+      </div>
     );
   }
 }
