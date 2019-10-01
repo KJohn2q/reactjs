@@ -1,0 +1,1216 @@
+---------------------------------------------------------------
+[ 2019-09-29T16:59:26+08:00 ] 127.0.0.1 GET www.news.com/index.php/Index/index/getNewsList?type=top
+[ error ] [0]致命错误: Call to undefined function app\index\controller\I()
+---------------------------------------------------------------
+[ 2019-09-29T17:00:19+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/index/getNewsList?type=top
+[ error ] [0]致命错误: Call to undefined function app\index\controller\I()
+---------------------------------------------------------------
+[ 2019-09-29T17:00:42+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[ error ] [0]致命错误: Call to undefined function app\index\controller\I()
+---------------------------------------------------------------
+[ 2019-09-29T17:02:48+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/index/getNewsList
+[ error ] [0]致命错误: Call to undefined function app\index\controller\I()
+---------------------------------------------------------------
+[ 2019-09-29T17:02:53+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/index/getNewsList
+[ error ] [0]致命错误: Call to undefined function app\index\controller\I()
+---------------------------------------------------------------
+[ 2019-09-29T17:06:08+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/index/getNewsList
+[运行时间：0.013363s] [吞吐率：74.83req/s] [内存消耗：1,026.77kb] [文件加载：29]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9663258624; pgv_si=s2854892544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.news.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function app\index\controller\I()[E:\code\php\news\application\index\controller\Index.php:12]
+---------------------------------------------------------------
+[ 2019-09-29T17:08:17+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/index/getNewsList
+[运行时间：0.013143s] [吞吐率：76.09req/s] [内存消耗：1,028.89kb] [文件加载：30]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9663258624; pgv_si=s2854892544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.news.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: type[E:\code\php\news\application\index\controller\Index.php:13]
+---------------------------------------------------------------
+[ 2019-09-29T17:08:54+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.010125s] [吞吐率：98.77req/s] [内存消耗：944.73kb] [文件加载：25]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => '7a4a2253-99b3-47ac-add3-39f7c9550f1b',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:09:33+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.009273s] [吞吐率：107.84req/s] [内存消耗：919.78kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => 'ef5e9af9-29f4-42d2-b59e-329a2d227d7d',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:09:49+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.008895s] [吞吐率：112.42req/s] [内存消耗：921.59kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9663258624; pgv_si=s2854892544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.news.com',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:10:40+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.012529s] [吞吐率：79.82req/s] [内存消耗：1,027.30kb] [文件加载：30]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => '25e02935-ae61-46e5-93c7-7994739bbadf',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]curl_setopt() expects parameter 1 to be resource, string given[E:\code\php\news\application\common.php:58]
+---------------------------------------------------------------
+[ 2019-09-29T17:11:13+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.013819s] [吞吐率：72.36req/s] [内存消耗：1,029.68kb] [文件加载：30]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9663258624; pgv_si=s2854892544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.news.com',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]curl_setopt() expects parameter 1 to be resource, string given[E:\code\php\news\application\common.php:58]
+---------------------------------------------------------------
+[ 2019-09-29T17:12:26+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.011209s] [吞吐率：89.21req/s] [内存消耗：1,029.93kb] [文件加载：30]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9663258624; pgv_si=s2854892544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.news.com',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]curl_setopt() expects parameter 1 to be resource, string given[E:\code\php\news\application\common.php:58]
+---------------------------------------------------------------
+[ 2019-09-29T17:13:38+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.010107s] [吞吐率：98.94req/s] [内存消耗：904.11kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => 'f94135bf-033d-4427-9426-96e0fb30dead',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:14:09+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.009927s] [吞吐率：100.74req/s] [内存消耗：906.48kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9663258624; pgv_si=s2854892544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.news.com',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:15:58+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.010583s] [吞吐率：94.49req/s] [内存消耗：919.96kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => '2dc7618a-2ebf-4a94-9ed9-1f3e103eae71',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:18:07+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.015052s] [吞吐率：66.44req/s] [内存消耗：1,016.99kb] [文件加载：28]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => '81ce6c1f-4383-48b2-abb8-f2963ccab74c',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected 'die' (T_EXIT)[E:\code\php\news\application\index\controller\Index.php:24]
+---------------------------------------------------------------
+[ 2019-09-29T17:18:16+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.012280s] [吞吐率：81.43req/s] [内存消耗：1,019.37kb] [文件加载：28]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9663258624; pgv_si=s2854892544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.news.com',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected 'die' (T_EXIT)[E:\code\php\news\application\index\controller\Index.php:24]
+---------------------------------------------------------------
+[ 2019-09-29T17:18:33+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.351954s] [吞吐率：2.84req/s] [内存消耗：921.46kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => 'a1d9c355-353a-4097-9abb-07f2bed41690',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:18:53+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.046295s] [吞吐率：21.60req/s] [内存消耗：923.84kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9663258624; pgv_si=s2854892544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.news.com',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:20:08+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.046528s] [吞吐率：21.49req/s] [内存消耗：921.12kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => '8a552721-8773-4868-84fd-7b4d6a987562',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:20:56+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.011608s] [吞吐率：86.15req/s] [内存消耗：1,029.14kb] [文件加载：30]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9663258624; pgv_si=s2854892544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.news.com',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: durl[E:\code\php\news\application\common.php:54]
+---------------------------------------------------------------
+[ 2019-09-29T17:21:17+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.013081s] [吞吐率：76.45req/s] [内存消耗：1,029.10kb] [文件加载：30]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9663258624; pgv_si=s2854892544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.news.com',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: headers[E:\code\php\news\application\common.php:60]
+---------------------------------------------------------------
+[ 2019-09-29T17:22:33+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.216459s] [吞吐率：4.62req/s] [内存消耗：923.94kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => '89c588aa-ff9d-4dd8-b554-fbcbe6dd9ad9',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:22:45+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.188921s] [吞吐率：5.29req/s] [内存消耗：926.31kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9663258624; pgv_si=s2854892544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.news.com',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:23:28+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.166718s] [吞吐率：6.00req/s] [内存消耗：922.06kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9663258624; pgv_si=s2854892544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.news.com',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:24:56+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.012146s] [吞吐率：82.33req/s] [内存消耗：922.30kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9663258624; pgv_si=s2854892544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.news.com',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:34:24+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.200199s] [吞吐率：5.00req/s] [内存消耗：926.86kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => '1bdb8cc9-3e9e-466f-aa44-d1d25db18aa2',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:40:10+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.237865s] [吞吐率：4.20req/s] [内存消耗：926.87kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => '71ff553c-bb88-4a0f-b9b6-fd81e486fc9c',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:40:50+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.141372s] [吞吐率：7.07req/s] [内存消耗：926.87kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => 'fee5ddf3-9332-45ad-8ce5-6d3e75d64a4f',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:41:01+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.378947s] [吞吐率：2.64req/s] [内存消耗：926.87kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => 'cbbc9f72-c262-460d-a1d7-543c4dfb61ee',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:43:07+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.207539s] [吞吐率：4.82req/s] [内存消耗：927.11kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => '38fd1a6d-8b80-48d7-91f9-818f719e56c6',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:43:34+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.148828s] [吞吐率：6.72req/s] [内存消耗：926.87kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => '1b7ce493-70a1-47a0-8170-04fc8020143a',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:45:08+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.231020s] [吞吐率：4.33req/s] [内存消耗：927.39kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => '3f5ed4d0-848a-4473-abce-b16df2724d1e',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:45:37+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.180090s] [吞吐率：5.55req/s] [内存消耗：927.80kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => 'e5ecb98e-7466-459a-8d5d-0926401eb21f',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:47:03+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.149485s] [吞吐率：6.69req/s] [内存消耗：935.36kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => '0e618c76-a4d0-4eb1-8d71-0ddc02d72ce4',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:47:46+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.108423s] [吞吐率：9.22req/s] [内存消耗：927.73kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => '12918b46-1931-4c80-9d30-9905b5b330d0',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:48:40+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.168299s] [吞吐率：5.94req/s] [内存消耗：935.67kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => 'd2ff7dcf-a2b9-415f-90b4-16944d17ad9a',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:49:12+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.176695s] [吞吐率：5.66req/s] [内存消耗：935.86kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => '8acdaedc-105b-48f3-8449-1161f9eaed7b',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:51:47+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.208684s] [吞吐率：4.79req/s] [内存消耗：935.36kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => '53d998a8-1558-44e1-9242-3edb911e835b',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:52:06+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.098301s] [吞吐率：10.17req/s] [内存消耗：935.36kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => '5b0a8ca4-e0ec-499f-a4af-372d7edd566a',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:52:19+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.194499s] [吞吐率：5.14req/s] [内存消耗：935.36kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => '1062ca86-dbe0-4293-963b-2c84a96fe8f4',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:52:27+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.077136s] [吞吐率：12.96req/s] [内存消耗：935.36kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => '2e64b0ea-1fed-4471-a855-359b4476fc61',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:52:46+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.159610s] [吞吐率：6.27req/s] [内存消耗：946.25kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => '6ec93754-a3b8-44f2-b3fd-ed8fdd0bad6d',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:52:57+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.083773s] [吞吐率：11.94req/s] [内存消耗：946.25kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => 'ff889053-bac7-4b4a-ba56-cbb0a83f29ec',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:53:05+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.248095s] [吞吐率：4.03req/s] [内存消耗：945.82kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => '19e5bc93-4d10-4ff3-ba1a-2c7537dd3f11',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:55:01+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.027758s] [吞吐率：36.03req/s] [内存消耗：628.98kb] [文件加载：23]
+[ error ] [0]Parse error: syntax error, unexpected ';'[E:\code\php\news\application\common.php:80]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:56:44+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.008426s] [吞吐率：118.68req/s] [内存消耗：629.77kb] [文件加载：23]
+[ error ] [0]Parse error: syntax error, unexpected ';'[E:\code\php\news\application\common.php:80]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T17:57:32+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.174398s] [吞吐率：5.73req/s] [内存消耗：937.87kb] [文件加载：24]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => 'fb30b78b-3b95-454c-8db4-2c42d14c40af',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-29T18:04:53+08:00 ] 127.0.0.1 GET www.news.com/index.php/index/Index/getNewsList?type=top
+[运行时间：0.161902s] [吞吐率：6.18req/s] [内存消耗：985.05kb] [文件加载：27]
+[ info ] [ LANG ] E:\code\php\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getNewsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.news.com',
+  'postman-token' => '840e1b74-d240-42e5-a409-cd57d0aed1e3',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'top',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNewsList[ E:\code\php\news\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
