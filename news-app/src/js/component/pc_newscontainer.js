@@ -1,10 +1,10 @@
 import React from 'react';
 import {Row, Col} from 'antd';
 import PCNewsBlock from './pc_news_block';
-import PCProduct from './pc_products';
 import PCNewsImageBlock from './pc_news_image_block';
 import {Tabs,Carousel} from 'antd';
-const {TabPane} = {Tabs};
+import PCProduct from './pc_products';
+const {TabPane} = Tabs;
 
 class PCNewsContainer extends React.Component {
   render() {
@@ -39,27 +39,47 @@ class PCNewsContainer extends React.Component {
                   <div>
                     <img src={require('../../images/carousel_1.jpg')} alt="course1" />
                   </div>
-                  <div className="name"></div>
                 </Carousel>
               </div>
-
+              <PCNewsImageBlock type="top" count="9" width="100%" cartTitle="头条新闻" imageWidth="112px"/>
             </div>
-            <Tabs class="tabs_news">
+            <Tabs className="tabs_news">
 							<TabPane tab="头条新闻" key="1">
-								<PCNewsBlock count={22} type="top" width="100%" bordered="false"/>
+								<PCNewsBlock type="top" width="100%" bordered="false"/>
 							</TabPane>
-							<TabPane tab="国际" key="2">
-								<PCNewsBlock count={22} type="guoji" width="100%" bordered="false"/>
+              <TabPane tab="娱乐新闻" key="2">
+								<PCNewsBlock type="entertainment" width="100%" bordered="false"/>
+							</TabPane>
+              <TabPane tab="体育" key="3">
+								<PCNewsBlock type="sport" width="100%" bordered="false"/>
+							</TabPane>
+              <TabPane tab="金融" key="4">
+								<PCNewsBlock type="finance" width="100%" bordered="false"/>
+							</TabPane>
+              <TabPane tab="军事" key="5">
+								<PCNewsBlock type="military" width="100%" bordered="false"/>
+							</TabPane>
+              <TabPane tab="科技" key="6">
+								<PCNewsBlock type="science" width="100%" bordered="false"/>
+							</TabPane>
+              <TabPane tab="手机" key="7">
+								<PCNewsBlock type="iphone" width="100%" bordered="false"/>
+							</TabPane>
+              <TabPane tab="数码" key="8">
+								<PCNewsBlock type="digital" width="100%" bordered="false"/>
+							</TabPane>
+              <TabPane tab="时尚" key="9">
+								<PCNewsBlock type="fashion" width="100%" bordered="false"/>
 							</TabPane>
 						</Tabs>
-            <Tabs class="tabs_product">
+            <Tabs className="tabs_product">
 							<TabPane tab="ReactNews 产品" key="1">
-								<PCProduct/>
+								<PCProduct />
 							</TabPane>
 						</Tabs>
             <div>
-							<PCNewsImageBlock count={8} type="guonei" width="100%" cartTitle="国内新闻" imageWidth="132px"/>
-							<PCNewsImageBlock count={16} type="yule" width="100%" cartTitle="娱乐新闻" imageWidth="132px"/>
+							<PCNewsImageBlock type="top" width="100%" cartTitle="头条新闻" imageWidth="132px"/>
+							<PCNewsImageBlock type="entertainment" width="100%" cartTitle="娱乐新闻" imageWidth="132px"/>
 						</div>
           </Col>
 

@@ -7,10 +7,6 @@ const { TabPane } = Tabs;
 
 class LoginModal extends React.Component {
 
-  constructor(props) {
-    super(props);
-  }
-
   handleSubmit(e) {
     // 页面开始向API进行提交数据
     e.preventDefault();
@@ -19,9 +15,9 @@ class LoginModal extends React.Component {
     };
     var formData = this.props.form.getFieldsValue();
     console.log(formData);
-    fetch("https://www.baidu.com").then(response=>response.json()).then(json=>{
+    fetch(("https://www.baidu.com").then(response=>response.json()).then(json=>{
       this.setState({userNickName:json.NickUserName,userid:json.UserId});
-    });
+    }), myFetchOptions);
     message.success("请求成功! ");
     this.props.setModalVisible(false);
   }

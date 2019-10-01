@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {Row, Col} from 'antd';
-import {Menu,Icon,message,Button} from 'antd';
+import {Menu,Icon,Button} from 'antd';
 import LoginModal from './login_modal';
 
 class PCHeader extends React.Component {
@@ -90,9 +90,17 @@ class PCHeader extends React.Component {
               <Icon type="appstore"/>
               科技
             </Menu.Item>
+            <Menu.Item key="education">
+              <Icon type="appstore"/>
+              教育
+            </Menu.Item>
             <Menu.Item key="emotion">
               <Icon type="appstore"/>
               感情
+            </Menu.Item>
+            <Menu.Item key="fashion">
+              <Icon type="appstore"/>
+              时尚
             </Menu.Item>
             {userShow}
           </Menu>

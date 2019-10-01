@@ -1,20 +1,22 @@
 import React from 'react';
 import {Card} from 'antd';
-import {Router, Route, Link, browserHistory} from 'react-router';
-export default class PCNewsImageBlock extends React.Component {
-  constructor() {
-    super();
+import {Link} from 'react-router-dom';
+class PCNewsImageBlock extends React.Component {
+  constructor(props) {
+    super(props);
     this.state = {
-      news: ''
+      news: '',
+      count: this.props.count?this.props.count:20
     };
   }
 
   componentWillMount() {
     var myFetchOptions = {
-      method: 'GET'
+      method: 'GET',
+      mode: 'cors',
     };
-    fetch("http://newsapi.gugujiankong.com/Handler.ashx?action=getnews&type=" + this.props.type +
-    "&count=" + this.props.count, myFetchOptions).then(response =>
+    fetch("http://www.news.com/index.php/index/Index/getNewsList?type="
+    + this.props.type + "&count=" + this.state.count, myFetchOptions).then(response =>
       response.json()).then(json => this.setState({news: json}));
   }
 
@@ -32,22 +34,22 @@ export default class PCNewsImageBlock extends React.Component {
     };
     const {news} = this.state;
     const newsList = news.length
-      ? news.map((newsItem, index) => (
-        <div key={index} class="imageblock">
-          <Link to={`details/${newsItem.uniquekey}`} target="_blank">
-						<div class="custom-image">
-							<img alt="" style={styleImage} src={newsItem.thumbnail_pic_s}/>
-						</div>
-						<div class="custom-card">
-							<h3 style={styleH3}>{newsItem.title}</h3>
-							<p>{newsItem.author_name}</p>
-						</div>
-					</Link>
+      ? news.map((newsItem, id) => (
+        <div key={id} className="imageblock">
+          <Link to={`details/${newsItem.docid}`} target="_blank">
+            <div className="custom-image">
+              <img alt="" style={styleImage} src={newsItem.imgsrc}/>
+            </div>
+            <div className="custom-card">
+              <h3 style={styleH3}>{newsItem.title}</h3>
+              <p>{newsItem.source}</p>
+            </div>
+          </Link>
         </div>
       ))
       : '没有加载到任何新闻';
       return (
-        <div class="topNewsList">
+        <div className="topNewsList">
           <Card title={this.props.cartTitle} bordered={true} style={{
             width: this.props.width
           }}>
@@ -57,3 +59,4 @@ export default class PCNewsImageBlock extends React.Component {
       );
   };
 }
+export default PCNewsImageBlock;
